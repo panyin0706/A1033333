@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>2-1</title>
+	<style type="text/css"> 
+p {margin:0;font-size:12px;line-height:26px;} 
+</style> 
+<script type="text/javascript"> 
+function checkbox1(obj,cName) 
+{ 
+    var checkboxs = document.getElementsByName(cName); 
+    for(var i=0;i<checkboxs.length;i++){checkboxs[i].checked = obj.checked;} 
+} 
+</script> 
+</head> 
+<body> 
+<p><input type="checkbox" name="all" onclick="checkbox1(this,'c')" />全選</p> 
+<p>1.桌子<input type="checkbox" name="c" value="" /></p> 
+<p>2.椅子<input type="checkbox" name="c" value="" /></p> 
+<p>3.電視<input type="checkbox" name="c" value="" /></p> 
+<p>4.洗衣機<input type="checkbox" name="c" value="" /></p> 
+<p>5.廚房<input type="checkbox" name="c" value="" /></p> 
+<p>6.浴室<input type="checkbox" name="c" value="" /></p> 
+</body> 
+</html>
+
+
+
+
